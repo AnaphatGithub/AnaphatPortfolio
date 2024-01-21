@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio - พอร์ตโฟลิโอ</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/avatar6.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Anaphat Phumphusri</h1>
+
+          <p class="title">อนพัทย์ พุ่มภู่ศรี</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>ช่องทางติดต่อ</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">อีเมล</p>
+
+              <a href="mailto:anaphat.bp@gmail.com" class="contact-link">anaphat.bp@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">เบอร์โทรศัพท์</p>
+
+              <a href="tel:+66934489184" class="contact-link">+669 3448 9184</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">วันเกิด</p>
+
+              <time datetime="2549-12-13">13 ธันวาคม 2549</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">ที่อยู่บ้าน</p>
+
+              <a href="https://maps.app.goo.gl/EWM7vUctowGktLU1A"><address>1188/187 หมู่ที่ 4 หมู่บ้านไพรเวทพาร์ควิลล์ ตำบลหนองจะบก อำเภอเมือง จังหวัดนครราชสีมา รหัสไปรษณีย์ 30000</address></a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/profile.php?id=100072783962965" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/anapheeig/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>ข้อมูลส่วนตัว</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>ประวัติ</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>กิจกรรม</button>
+          </li>
+
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>ช่องทางติดต่อ</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="ข้อมูลส่วนตัว">
+
+        <header>
+          <h2 class="h2 article-title">แนะนำตัว</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            สวัสดีครับผมชื่อ อนพัทย์ พุ่มภู่ศรี หรือจ้าว ผมเรียนอยู่ที่โรงเรียนมารีย์วิทยา
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">ความสามารถ</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.png" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Website</h4>
+
+                <p class="service-item-text">
+                  มีความสามารถในการเขียนเว็บไซต์โดยสามารถใช้ภาษา HTML, Java, css
+                </p> 
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-game.png" alt="Web development icon" width="60">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Game</h4>
+
+                <p class="service-item-text">
+                  มีความสามารถในการออกแบบเกม และเขียนเกมง่ายๆโดยใช้ภาษา Lua, C#
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+        
+        <h3 class="h3 service-under">Source code : codewithsadee</h3>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+        </div>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="ประวัติ" data-page="ประวัติ">
+
+        <header>
+          <h2 class="h2 article-title">ประวัติ</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">ประวัติการศึกษา</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ระดับอนุบาล</h4>
+
+              <span>2553 — 2555</span>
+
+              <p class="timeline-text">
+                ได้เข้ารับการศึกษาระดับอนุบาลตอนอายุ 3-5 ปีในโรงเรียนอนุบาล...[จำไม่ได้]
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ระดับประถม มัธยมต้น</h4>
+
+              <span>2556 — 2561</span>
+
+              <p class="timeline-text">
+                ต่อมาได้สอบเข้าเพื่อศึกษาต่อที่โรงเรียนมารีย์วิทยาตั้งแต่อายุ 6-15 ปี
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">ระดับมัธยมปลาย</h4>
+
+              <span>2562 — 2568</span>
+
+              <p class="timeline-text">
+                เมื่อถึงระดับมัธยมปลาย ได้สอบเข้าสายการเรียน วิทย์-คณิต เพื่อศึกษาต่อในโรงเรียนเดิมจนถึงปี 2568
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">ภาษา HTML, Java, css</h5>
+                <data value="80">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">LuaU, C#</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="กิจกรรม" data-page="กิจกรรม">
+
+        <header>
+          <h2 class="h2 article-title">กิจกรรม</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>การแข่งขันงานศิลปหัตถกรรมนักเรียน</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>สอบวัดระดับความรู้ทางวิชาการ</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>อบรม</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>จิตอาสา</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>การแข่งขันงานศิลปหัตถกรรมนักเรียน</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>สอบวัดระดับความรู้ทางวิชาการ</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>อบรม</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>จิตอาสา</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="การแข่งขันงานศิลปหัตถกรรมนักเรียน">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">สร้างเกมสร้างสรรค์จากคอมพิวเตอร์</h3>
+
+                <p class="project-category">การแข่งขันงานศิลปหัตถกรรมนักเรียน</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="การแข่งขันงานศิลปหัตถกรรมนักเรียน">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-8.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">สร้าง Web Applications</h3>
+
+                <p class="project-category">การแข่งขันงานศิลปหัตถกรรมนักเรียน</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="สอบวัดระดับความรู้ทางวิชาการ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-9.png" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ภาษาต่างประเทศ</h3>
+
+                <p class="project-category">สอบวัดระดับความรู้ทางวิชาการ</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="สอบวัดระดับความรู้ทางวิชาการ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-10.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">วิทยาศาสตร์และเทคโนโลยี</h3>
+
+                <p class="project-category">สอบวัดระดับความรู้ทางวิชาการ</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="สอบวัดระดับความรู้ทางวิชาการ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-11.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">สังคมศึกษา</h3>
+
+                <p class="project-category">สอบวัดระดับความรู้ทางวิชาการ</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="สอบวัดระดับความรู้ทางวิชาการ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-12.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">คณิตศาสตร์</h3>
+
+                <p class="project-category">สอบวัดระดับความรู้ทางวิชาการ</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-3.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">CoSpaces Edu</h3>
+
+                <p class="project-category">อบรม [ลาดกระบัง]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-4.png" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Pygame</h3>
+
+                <p class="project-category">อบรม [ลาดกระบัง]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-5.png" alt="arrival" loading="อบรม">
+                </figure>
+
+                <h3 class="project-title">ภาษา C#</h3>
+
+                <p class="project-category">อบรม [ลาดกระบัง]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-6.png" alt="arrival" loading="อบรม">
+                </figure>
+
+                <h3 class="project-title">Mediapipe</h3>
+
+                <p class="project-category">อบรม [ลาดกระบัง]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-7.png" alt="arrival" loading="อบรม">
+                </figure>
+
+                <h3 class="project-title">Unity</h3>
+
+                <p class="project-category">อบรม [ลาดกระบัง]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="อบรม">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-2.png" alt="arrival" loading="อบรม">
+                </figure>
+
+                <h3 class="project-title">อบรมพัฒนาทักษะวิศวกรรมศาสตร์</h3>
+
+                <p class="project-category">อบรม [Wisdom v academy]</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="จิตอาสา">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/port-13.png" alt="arrival" loading="จิตอาสา">
+                </figure>
+
+                <h3 class="project-title">บริจาคเงินช่วยเหลือครอบครัวเด็กยากไร้</h3>
+
+                <p class="project-category">จิตอาสา</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+ 
+
+      <!---#CONTACT-->
+
+      <article class="ช่องทางติดต่อ" data-page="ช่องทางติดต่อ">
+
+        <header>
+          <h2 class="h2 article-title">ช่องทางติดต่อ</h2>
+        </header>
+        <h3 class="h3 form-title">ที่อยู่บ้าน</h3>
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d481.9553094046259!2d102.06365646589373!3d14.901257120699796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zMTE4OC8xODcg4Lir4Lih4Li54LmI4LiX4Li14LmIIDQg4Lir4Lih4Li54LmI4Lia4LmJ4Liy4LiZ4LmE4Lie4Lij4LmA4Lin4LiX4Lie4Liy4Lij4LmM4LiE4Lin4Li04Lil4Lil4LmMIOC4leC4s-C4muC4peC4q-C4meC4reC4h-C4iOC4sOC4muC4gSDguK3guLPguYDguKDguK3guYDguKHguLfguK3guIcg4LiI4Lix4LiH4Lir4Lin4Lix4LiU4LiZ4LiE4Lij4Lij4Liy4LiK4Liq4Li14Lih4LiyIOC4o-C4q-C4seC4quC5hOC4m-C4o-C4qeC4k-C4teC4ouC5jCAzMDAwMA!5e0!3m2!1sth!2sth!4v1705850014137!5m2!1sth!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+          <ul class="contacts-list">
+
+            <li class="contact-item">
+  
+              <div class="icon-box">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">Facebook</p>
+  
+                <a href="https://www.facebook.com/profile.php?id=100072783962965" class="contact-link">Anapat Pumphusri</a>
+              </div>
+            </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </div>
+            
+            
+              <div class="contact-info">
+                <p class="contact-title">Instagram</p>
+  
+                <a href="https://www.instagram.com/anapheeig/" class="contact-link">Anapheeig</a>
+              </div>
+            </li>
+            
+            <li class="contact-item">
+
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+  
+              <div class="contact-info">
+                <p class="contact-title">อีเมล</p>
+  
+                <a href="mailto:anaphat.bp@gmail.com" class="contact-link">anaphat.bp@gmail.com</a>
+              </div>
+  
+            </li>
+            <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">เบอร์โทรศัพท์</p>
+
+              <a href="tel:+66934489184" class="contact-link">+669 3448 9184</a>
+            </div>
+            </li>
+
+          </ul>
+  
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
