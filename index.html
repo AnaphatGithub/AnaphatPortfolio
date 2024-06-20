@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!--=============== FAVICON ===============-->
+      <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="assets/css/styles.css">
+
+      <title>Personal Portfolio - พอร์ตโฟลิโอ</title>
+   </head>
+   <body>
+      <!--==================== HEADER ====================-->
+      <header class="header blur-header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">Anaphat's Portfolio</a>
+
+            <div class="nav__menu" id="nav-menu">
+               <ul class="nav__list">
+                  <li>
+                     <a href="#home" class="nav__link active-link">หน้าแรก</a>
+                  </li>
+                  <li>
+                     <a href="#work" class="nav__link">ผลงาน</a>
+                  </li>
+                  <li>
+                     <a href="#info" class="nav__link">ประวัติ</a>
+                  </li>
+                  <li>
+                     <a href="#contact" class="nav__link">ช่องทางติดต่อ</a>
+                  </li>
+               </ul>
+               
+               <!-- ปุ่มปิด -->
+               <div class="nav__close" id="nav-close">
+                  <i class="ri-close-large-line"></i>
+               </div>
+            </div>
+
+               <!-- ปุ่มหน้าต่าง -->
+               <div class="nav__toggle" id="nav-toggle">
+                  <i class="ri-menu-line"></i>
+               </div>
+         </nav>
+      </header>
+      
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+               <div class="home__container container grid">
+                  <img src="assets/img/home-perfil.png" alt="image" class="home__img">
+
+                  <div class="home__data">
+                     <h1 class="home__name">Anaphat <br> Phumphusri </h1>
+                     <h1 class="home__name">อนพัทย์ <br> พุ่มภู่ศรี </h1>
+                     <h3 class="home__profession">Student</h3>
+                  </div>
+
+                  <a href="#work" class="home__scroll">
+                     <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                     </div>
+
+                     <span class="home__scroll-text">ผลงานล่าสุด</span>
+                  </a>
+               </div>
+         </section>
+
+         <!--==================== WORKS ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__title">ผลงานล่าสุด</h2>
+
+            <div class="work__container container grid">
+               <article class="work__card">
+                  <a href="https://www.roblox.com/games/17406466693/Lost-in-Reminiscence-ALPHA" target="_blank" class="work__link">
+                     <h2 class="work__title">Lost In Reminiscene</h2>
+                     <p class="work__description"> 
+                        โปรเจกต์เกมที่สร้างขึ้นใน Roblox Studio
+                     </p>
+
+                     <img src="assets/img/work-1.jpg" alt="image" class="work__img">
+                     <i class="ri-arrow-right-line"></i>
+                  </a>
+               </article> 
+            </div>
+         </section>
+
+         <!--==================== INFO ====================-->
+         <section class="info section" id="info">
+               <h2 class="section__title">ข้อมูลส่วนตัว</h2>
+
+               <div class="info__container container grid">
+                  <div class="about grid">
+                     <div class="about__content">
+                        <h3 class="info__title">เกี่ยวกับฉัน</h3>
+                        <p class="about__description">
+                           สวัสดีครับผมชื่อ อนพัทย์ พุ่มภู่ศรี หรือจ้าว ผมเรียนอยู่ที่โรงเรียนมารีย์วิทยา
+                        </p>
+
+                        <img src="assets/img/info-perfil.png" alt="image" class="about__img">
+                     </div>
+                  </div>
+               </div>
+         
+
+
+            <!-- SKILLS -->
+            <div class="info__container container grid">
+               <div class="skills">
+                  <h3 class="info__title">ความสามารถ</h3>
+                  <div class="skills__content grid">
+                     <div class="skills__box">
+                        <img src="assets/img/info-html.svg" alt="image" class="skills__img">
+                        <span class="skills__name">HTML</span>
+                     </div>
+
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-css.svg" alt="image" class="skills__img">
+                     <span class="skills__name">CSS</span>
+                     </div>
+         
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-javascript.svg" alt="image" class="skills__img">
+                     <span class="skills__name">JavaScript</span>
+                     </div>
+               
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-lua.svg" alt="image" class="skills__img">
+                     <span class="skills__name">LuaU</span>
+                     </div>
+                  
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-python.svg" alt="image" class="skills__img">
+                     <span class="skills__name">Python</span>
+                     </div>
+                  
+
+                  <div class="skills__box">
+                     <img src="assets/img/info-C--4.svg" alt="image" class="skills__img">
+                     <span class="skills__name">C#</span>
+                     </div>
+                  
+                  </div>
+
+               </div>
+         </section>
+         <!--==================== SERVICES ====================-->
+         <section class="services section" id="services">
+
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact">
+            <h2 class="section__title">ช่องทางติดต่อ</h2>
+
+            <div class="contact__social grid">
+               <a href="https://www.facebook.com/profile.php?id=100072783962965" target="_blank" class="contact__social-link">
+                  <i class="ri-facebook-circle-line"></i>
+                  <span>FACEBOOK</span>
+               </a>
+            
+               <a href="https://www.instagram.com/anapheeig/" target="_blank" class="contact__social-link">
+                  <i class="ri-instagram-line"></i>
+                  <span>INSTAGRAM</span>
+               </a>
+
+               <a href="mailto:anaphat.bp@gmail.com" target="_blank" class="contact__social-link">
+                  <i class="ri-mail-line"></i>
+                  <span>EMAIL</span>
+               </a>
+               
+               <a href="tel:+66934489184" target="_blank" class="contact__social-link">
+                  <i class="ri-phone-line"></i>
+                  <span>PHONE NUMBER</span>
+               </a>
+            </div>
+
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+         <div class="footer__container container grid">
+            <ul class="footer__links">
+               <li>
+                  <a href="#home" class="footer__link">หน้าแรก</a>
+               </li>
+
+               <li>
+                  <a href="#work" class="footer__link">ผลงาน</a>
+               </li>
+
+               <li>
+                  <a href="#info" class="footer__link">ข้อมูลส่วนตัว</a>
+               </li>
+            </ul>
+
+            <span class="footer__copy">
+               &#169; สงวนลิขสิทธิ์โดย อนพัทย์ พุ่มภู่ศรี
+            </span>
+         </div>
+      </footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="scroll-up">
+         <i class="ri-arrow-up-line"></i>
+      </a>
+
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="assets/js/scrollreveal.min.js"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src=""></script>
+
+      <!--=============== MAIN JS ===============-->
+      <script src="assets/js/main.js"></script>
+   </body>
+</html>
