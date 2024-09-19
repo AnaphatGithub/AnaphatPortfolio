@@ -75,6 +75,5 @@ const sr = ScrollReveal({
 sr.reveal('.home__data, .experience, .skills, .contact__container')
 sr.reveal('.home__img', {delay: 600})
 sr.reveal('.home__scroll', {delay: 800})
-sr.reveal('.work__card', {interval: 100})
 sr.reveal('.about__content', {origin: 'right'})
 sr.reveal('.about__img', {origin: 'left'})
